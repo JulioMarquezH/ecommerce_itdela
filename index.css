@@ -1,0 +1,744 @@
+body {
+  margin: 0;
+}
+header {
+  height: 56px;
+  background-color: #020000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 40px 23px 60px;
+}
+h1 {
+  margin: 0;
+  color: #e5729b;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+header p {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #a8a8a8;
+}
+header a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #dedcdc;
+  margin-right: 45px;
+}
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+nav {
+  display: flex;
+  padding: 24px 0 29px 48px;
+}
+nav button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ca557e;
+}
+nav button img {
+  margin-left: 12px;
+}
+nav a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #726f6f;
+  margin-right: 52px;
+}
+.itdela-img img {
+  width: 100%;
+}
+.stellar {
+  display: flex;
+}
+.subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 44px;
+}
+img.square-margin {
+  margin-right: 64px;
+  margin-left: 64px;
+}
+.stellar section img.img-square {
+  width: 367px;
+  height: 338px;
+}
+.box {
+  width: max-content;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
+.stellar-text h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: #ca557e;
+  margin-bottom: 15px;
+}
+.stellar-text {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.stellar-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  color: #a8a8a8;
+}
+.button-pink {
+  background-color: #f7bec5;
+  border-radius: 4px;
+  padding: 8px 25px 8px 23px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #64000c;
+}
+.button-pink img {
+  margin-right: 18px;
+}
+.net-margin {
+  margin-left: 64px;
+  margin-right: 64px;
+}
+.net {
+  width: 438px;
+  height: 570px;
+}
+aside.box span {
+  display: flex;
+  justify-content: center;
+}
+aside.box span img {
+  margin-top: 20px;
+  margin-right: 8px;
+}
+.p {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 34px;
+}
+.p p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  color: #000000;
+  text-align: center;
+}
+.blog-margin {
+  margin-right: 36px;
+  margin-left: 36px;
+}
+.blog {
+  width: 456px;
+  height: 417px;
+
+  border: solid 1px #b3b3b3;
+  border-radius: 16px;
+}
+.blog h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  color: #181818;
+  text-align: start;
+}
+.blog img {
+  border-radius: 16px;
+}
+.blog blockquote p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  color: #726f6f;
+  text-align: start;
+  margin-top: 14px;
+}
+.blog p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin: 0;
+  color: #181818;
+  text-align: start;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+.bar-black {
+  width: 100%;
+  height: 281px;
+  background-color: #181818;
+  position: relative;
+  margin-top: 256px;
+  padding-top: 81px;
+}
+.bar-black div {
+  margin: 0 0 77px 102px;
+}
+.ellipse {
+  position: absolute;
+  top: 181px;
+  left: 0;
+}
+.ellipse1 {
+  position: absolute;
+  top: 1px;
+  left: 16.46%;
+}
+.ellipse2 {
+  position: absolute;
+  top: 285px;
+  left: 36.11%;
+}
+.ellipse3 {
+  position: absolute;
+  top: -13px;
+  left: 61.8%;
+}
+.ellipse4 {
+  position: absolute;
+  top: 276px;
+  left: 70.44%;
+}
+.ellipse5 {
+  position: absolute;
+  top: 31px;
+  left: 81.11%;
+}
+.bar-black button.button-pink {
+  color: #000000;
+  margin-top: 32px;
+}
+.bar-black p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0;
+  color: #f7bec5;
+  width: 723.45px;
+}
+.bar-black .bar-black-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  color: #f7bec5;
+  text-align: start;
+  margin-top: 12px;
+  margin-bottom: 51px;
+}
+.bar-black section {
+  display: flex;
+}
+.bar-black aside section input {
+  height: 62px;
+  width: 453px;
+  margin-right: 32px;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #f7bec5;
+}
+.bar-black section input::placeholder {
+  color: #f7bec5;
+}
+
+.bar-black aside {
+  margin-left: 29.7%;
+}
+div.footer {
+  display: flex;
+  padding: 45px 40px 0 65px;
+  justify-content: space-between;
+}
+div.footer blockquote {
+  margin: 0;
+}
+footer {
+  background: #f7bec5;
+  padding-bottom: 46px;
+}
+footer aside {
+  width: 367px;
+  height: 21px;
+  margin: auto;
+  margin-top: 16px;
+}
+.footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #000000;
+}
+h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: #000000;
+  margin-bottom: 24px;
+}
+div.footer section div {
+  margin-top: 24px;
+  margin-bottom: 74px;
+}
+div.footer section blockquote p {
+  margin-bottom: 7px;
+}
+.stellar-text-margin {
+  margin-left: 64px;
+}
+.stellar section button.button-pink-margin {
+  margin-left: 64px;
+}
+.nav-responsive {
+  display: none;
+}
+.on-none {
+  display: none;
+}
+.content {
+  display: flex;
+}
+.check-list {
+  display: flex;
+  align-items: center;
+}
+.filters {
+  margin: 51px 25px 30px 29px;
+}
+.list-products {
+  border-left: 1px solid #cacaca;
+  width: 100%;
+}
+section.filters p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: black;
+}
+.filters section p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 11px;
+  color: #000000;
+}
+.filters section div p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  color: #000000;
+  margin-top: 9px;
+}
+.filters section div button {
+  margin-top: 9px;
+  margin-right: 10px;
+}
+.check {
+  width: 20px;
+  height: 20px;
+  border: #a8a8a8 1px solid;
+}
+.parameter-bar {
+  border: 0.5px solid #a8a8a8;
+  width: 100%;
+  text-align: start;
+  padding: 7px 0 7px 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 40px 72px 35px;
+  flex-wrap: wrap;
+}
+
+.img-product img {
+  height: 618px;
+  width: 672px;
+}
+.img-product {
+  margin: 122px 64px 69px 61px;
+}
+.info-product {
+  margin: 122px 97px 69px 0;
+}
+.info-product blockquote {
+  margin: 0;
+  margin-bottom: 51px;
+}
+.info-product blockquote p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: #726f6f;
+}
+.name-product {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0;
+  color: #ca557e;
+  margin-bottom: 20px;
+}
+.price-product {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.quantity-product {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: #726f6f;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+.equal {
+  align-items: center;
+}
+.button-buy {
+  width: 435.98px;
+  height: 65.55px;
+  margin-top: 40px;
+}
+@media screen and (min-width: 730px) and (max-width: 1512px) {
+  .net {
+    width: 28.97vw;
+    height: 37.7vw;
+  }
+  .blog {
+    width: 30.16vw;
+    height: 23.58vw;
+  }
+  .blog img {
+    width: 30.16vw;
+    height: 12.7vw;
+  }
+  .stellar section img.img-square {
+    width: 24.27vw;
+    height: 22.35vw;
+  }
+  .blog blockquote p {
+    display: none;
+  }
+  .net-margin {
+    margin-right: 4.23vw;
+    margin-left: 4.23vw;
+  }
+  .stellar-text-margin {
+    margin-left: 4.23vw;
+  }
+  .stellar button.button-pink-margin {
+    margin-left: 4.23vw;
+  }
+}
+@media screen and (max-width: 1512px) {
+  .bar-black aside blockquote {
+    width: max-content;
+    margin: auto;
+  }
+  .bar-black aside {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 730px) and (max-width: 1100px) {
+  .blog p {
+    display: none;
+  }
+  .blog hr {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+  .nav-responsive {
+    display: block;
+  }
+}
+@media screen and (min-width: 730px) and (max-width: 900px) {
+  .bar-black p {
+    font-size: 32px;
+    line-height: 42.19px;
+  }
+  .bar-black .bar-black-text {
+    font-size: 20px;
+  }
+  .bar-black div {
+    width: max-content;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 730px) {
+  .img-product img {
+    width: 381px;
+    height: 351px;
+  }
+  section.img-product {
+    margin-top: 68px;
+  }
+
+  section.info-product {
+    width: 381px;
+  }
+  .filters {
+    display: none;
+  }
+
+  .stellar {
+    display: block;
+  }
+  .net-none {
+    display: none;
+  }
+  img.square-margin {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .button-pink-margin {
+    margin-bottom: 50px;
+  }
+  .p-margin {
+    margin-bottom: 50px;
+  }
+  .bar-black div {
+    width: 370px;
+    margin: 0;
+    margin: auto;
+  }
+  .bar-black .bar-black-text {
+    text-align: center;
+  }
+
+  .blog-margin {
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .bar-black p {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+  .bar-black {
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .bar-black aside blockquote {
+    width: 90vw;
+  }
+  .bar-black section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .bar-black {
+    height: 362px;
+  }
+
+  .bar-black .bar-black-text {
+    margin-bottom: 22px;
+  }
+  .bar-black button.button-pink {
+    margin: auto;
+    margin: 20px;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .on-none {
+    display: block;
+    width: 100%;
+  }
+  .off-none {
+    display: none;
+  }
+  .on-none hr {
+    background-color: #000000;
+  }
+  .on-none button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tarjet {
+    width: 375px;
+    margin: auto;
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blog {
+    width: 367px;
+    height: 419px;
+  }
+  .blog img {
+    width: 367px;
+  }
+  .net {
+    width: 332px;
+    height: 432px;
+  }
+  .bar-black aside section input {
+    width: 369px;
+  }
+}
+@media screen and (max-width: 1460px) {
+  .product3 {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .product2 {
+    margin-top: 60px;
+  }
+  .products {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .flex-warp {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img-product {
+    margin: auto;
+    margin-top: 122px;
+  }
+  .info-product {
+    width: 618px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .space2 {
+    margin-top: 43px;
+  }
+}
+@media screen and (max-width: 824px) {
+  .space1 {
+    margin-top: 43px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .equal {
+    display: none;
+  }
+  .button-buy {
+    display: none;
+  }
+}
