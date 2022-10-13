@@ -1,0 +1,66 @@
+.stellar section img.img-square {
+  width: 367px;
+  height: 338px;
+}
+.stellar-text h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: #ca557e;
+  margin-bottom: 15px;
+}
+.stellar-text {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.stellar-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  color: #a8a8a8;
+}
+img.square-margin {
+  margin-right: 64px;
+  margin-left: 64px;
+}
+.stellar-text-margin {
+  margin-left: 64px;
+}
+.p p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  color: #000000;
+  text-align: center;
+}
+.p {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 34px;
+}
+@media screen and (min-width: 730px) and (max-width: 1512px) {
+  .stellar section img.img-square {
+    width: 24.27vw;
+    height: 22.35vw;
+  }
+  .stellar-text-margin {
+    margin-left: 4.23vw;
+  }
+}
+@media screen and (max-width: 730px) {
+  img.square-margin {
+    margin: 0;
+    margin-top: 50px;
+  }
+}

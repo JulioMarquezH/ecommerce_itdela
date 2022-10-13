@@ -1,0 +1,18 @@
+.net-margin {
+  margin-left: 64px;
+  margin-right: 64px;
+}
+.net {
+  width: 438px;
+  height: 570px;
+}
+@media screen and (min-width: 730px) and (max-width: 1512px) {
+  .net {
+    width: 28.97vw;
+    height: 37.7vw;
+  }
+  .net-margin {
+    margin-right: 4.23vw;
+    margin-left: 4.23vw;
+  }
+}

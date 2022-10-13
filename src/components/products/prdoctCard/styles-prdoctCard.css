@@ -1,0 +1,79 @@
+.stellar section img.img-square {
+  width: 367px;
+  height: 338px;
+}
+.stellar-text h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: #ca557e;
+  margin-bottom: 15px;
+}
+.stellar-text {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.stellar-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  color: #a8a8a8;
+}
+.button-pink {
+  background-color: #f7bec5;
+  border-radius: 4px;
+  padding: 8px 25px 8px 23px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #64000c;
+}
+.button-pink img {
+  margin-right: 18px;
+}
+img.square-margin {
+  margin-right: 64px;
+  margin-left: 64px;
+}
+.stellar-text-margin {
+  margin-left: 64px;
+}
+.stellar button.button-pink-margin {
+  margin-left: 64px;
+}
+@media screen and (min-width: 730px) and (max-width: 1512px) {
+  .stellar section img.img-square {
+    width: 24.27vw;
+    height: 22.35vw;
+  }
+  .stellar-text-margin {
+    margin-left: 4.23vw;
+  }
+  .stellar button.button-pink-margin {
+    margin-left: 4.23vw;
+  }
+}
+@media screen and (max-width: 730px) {
+  img.square-margin {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .stellar button.button-pink-margin {
+    margin-left: 0;
+  }
+  blockquote.stellar-text-margin {
+    margin: 0;
+    margin-top: 50px;
+  }
+}

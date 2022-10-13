@@ -1,0 +1,25 @@
+p.type-filters {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 11px;
+  color: #000000;
+}
+.parameter-bar {
+  border: 0.5px solid #a8a8a8;
+  width: 100%;
+  text-align: start;
+  padding: 7px 0 7px 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 9px;
+  margin-right: 10px;
+}

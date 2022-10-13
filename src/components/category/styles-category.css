@@ -1,0 +1,32 @@
+.box {
+  width: max-content;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
+.subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 44px;
+}
+.stellar {
+  display: flex;
+}
+
+@media screen and (max-width: 730px) {
+  .stellar {
+    display: block;
+  }
+  img.square-margin {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .p-margin {
+    margin-bottom: 50px;
+  }
+}

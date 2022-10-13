@@ -1,0 +1,28 @@
+.on-none {
+  display: none;
+}
+@media screen and (max-width: 730px) {
+  .on-none {
+    display: block;
+    width: 100%;
+  }
+  .on-none button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .on-none hr {
+    background-color: #000000;
+  }
+  .tarjet {
+    width: 375px;
+    margin: auto;
+    margin-top: 32px;
+  }
+}

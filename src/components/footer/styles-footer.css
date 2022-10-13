@@ -1,0 +1,21 @@
+footer {
+  background: #f7bec5;
+  padding-bottom: 46px;
+}
+div.footer {
+  display: flex;
+  padding: 45px 40px 0 65px;
+  justify-content: space-between;
+}
+footer aside {
+  width: 367px;
+  height: 21px;
+  margin: auto;
+  margin-top: 16px;
+}
+@media screen and (max-width: 730px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

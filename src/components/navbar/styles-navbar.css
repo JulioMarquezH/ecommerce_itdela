@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  padding: 24px 0 29px 48px;
+}
+.nav button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ca557e;
+}
+.nav button img {
+  margin-left: 12px;
+}
+.nav a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #726f6f;
+  margin-right: 52px;
+}
+.nav-responsive {
+  padding: 24px 0 29px 48px;
+  display: none;
+}
+.nav-responsive button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ca557e;
+}
+@media screen and (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+  .nav-responsive {
+    display: block;
+  }
+}

@@ -1,0 +1,14 @@
+.box-related {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 223px;
+  flex-wrap: wrap;
+}
+.related {
+  width: 78.17%;
+  margin-left: 61px;
+}
+
+.box-related section {
+  margin-bottom: 30px;
+}

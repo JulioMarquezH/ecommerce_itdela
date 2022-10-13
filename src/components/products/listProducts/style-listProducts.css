@@ -1,0 +1,22 @@
+.list-products {
+  border-left: 1px solid #cacaca;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 40px 72px 35px;
+  flex-wrap: wrap;
+}
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.catalogue section {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 730px) {
+  .catalogue {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,83 @@
+.bar-black-form {
+  margin-left: 29.7%;
+}
+.bar-black-form p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0;
+  color: #f7bec5;
+  width: 723.45px;
+}
+.bar-black-form .bar-black-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  color: #f7bec5;
+  text-align: start;
+  margin-top: 12px;
+  margin-bottom: 51px;
+}
+.bar-black-form section {
+  display: flex;
+}
+.bar-black-form section input {
+  height: 62px;
+  width: 453px;
+  margin-right: 32px;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #f7bec5;
+}
+.bar-black-form section input::placeholder {
+  color: #f7bec5;
+}
+
+.bar-black-form {
+  margin-left: 29.7%;
+}
+.bar-black-form button.button-pink {
+  color: #000000;
+  margin-top: 32px;
+}
+@media screen and (max-width: 1512px) {
+  .bar-black-form {
+    margin: auto;
+  }
+  .bar-black-form blockquote {
+    width: max-content;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 730px) and (max-width: 900px) {
+  .bar-black-form p {
+    font-size: 32px;
+    line-height: 42.19px;
+  }
+  .bar-black-form .bar-black-text {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .bar-black-form p {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+  .bar-black-form .bar-black-text {
+    margin-bottom: 22px;
+  }
+  .bar-black-form .bar-black-text {
+    text-align: center;
+  }
+  .bar-black-form blockquote {
+    width: 90vw;
+  }
+}

@@ -1,0 +1,77 @@
+.blog-margin {
+  margin-right: 36px;
+  margin-left: 36px;
+}
+.blog {
+  width: 456px;
+  height: 417px;
+
+  border: solid 1px #b3b3b3;
+  border-radius: 16px;
+}
+.blog h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  color: #181818;
+  text-align: start;
+}
+.blog img {
+  border-radius: 16px;
+}
+.blog blockquote p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  color: #726f6f;
+  text-align: start;
+  margin-top: 14px;
+}
+.blog p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin: 0;
+  color: #181818;
+  text-align: start;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+@media screen and (min-width: 730px) and (max-width: 1512px) {
+  .blog {
+    width: 30.16vw;
+    height: 23.58vw;
+  }
+  .blog img {
+    width: 30.16vw;
+    height: 12.7vw;
+  }
+  .blog blockquote p {
+    display: none;
+  }
+  .blog hr {
+    display: none;
+  }
+}
+@media screen and (min-width: 730px) and (max-width: 1100px) {
+  .blog p {
+    display: none;
+  }
+}
+@media screen and (max-width: 730px) {
+  .blog-margin {
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
