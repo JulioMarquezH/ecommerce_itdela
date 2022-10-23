@@ -1,0 +1,11 @@
+.subtitle-cart {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--color-subtitle);
+  margin: 0;
+  margin-bottom: 78px;
+  margin-top: 125px;
+  margin-left: 100px;
+}

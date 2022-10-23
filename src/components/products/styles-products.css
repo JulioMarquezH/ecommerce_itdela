@@ -10,7 +10,7 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  color: #000000;
+  color: var(--sub-title);
   margin: 0;
   margin-bottom: 44px;
 }

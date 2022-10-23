@@ -10,7 +10,7 @@ function products() {
     <>
       <Header />
       <FooterResponsive />
-      <div class="content">
+      <div className="content">
         <Filters />
         <ListProducts />
       </div>

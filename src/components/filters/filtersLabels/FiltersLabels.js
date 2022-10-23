@@ -1,8 +1,8 @@
 import React from "react"
 import FiltersCheck from "../filtersCheck/FiltersCheck"
-import "../filtersCategory/style-filtersCategory.css"
+import "./style-filtersLabels.css"
 
-const checks = [
+const labels = [
   {
     name: "Ruby Rose",
   },
@@ -23,12 +23,12 @@ const checks = [
   },
 ]
 
-function FiltersBrand() {
+function FiltersLabels() {
   return (
     <section>
-      <p className="type-filters">Por marcas</p>
+      <p className="type-filters-labels">Por marcas</p>
       <div>
-        {checks.map((item, index) => {
+        {labels.map((item, index) => {
           const props = { ...item }
           return <FiltersCheck key={index} {...props} />
         })}
@@ -37,4 +37,4 @@ function FiltersBrand() {
   )
 }
 
-export default FiltersBrand
+export default FiltersLabels

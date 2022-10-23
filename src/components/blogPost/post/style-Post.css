@@ -1,0 +1,44 @@
+.blog-post {
+  display: flex;
+  margin: 0 0 30px 80px;
+  width: 1006px;
+  flex-wrap: wrap;
+}
+.title-blog {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 21px;
+
+  color: #181818;
+}
+.date-blog {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 21px;
+
+  color: #181818;
+}
+.image-blog {
+  width: 336px;
+  height: 304px;
+}
+.block-image-blog {
+  margin: 0 42px 0px 0px;
+  width: 336px;
+  height: 304px;
+}
+.description-blog {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #726f6f;
+}

@@ -9,7 +9,7 @@
   font-size: 24px;
   line-height: 28px;
   margin: 0;
-  color: #ca557e;
+  color: var(--name-product);
   margin-bottom: 15px;
 }
 .stellar-text {
@@ -24,7 +24,7 @@
   font-size: 16px;
   line-height: 19px;
   margin: 0;
-  color: #a8a8a8;
+  color: var(--price-product);
 }
 img.square-margin {
   margin-right: 64px;
@@ -41,7 +41,7 @@ img.square-margin {
   line-height: 28px;
   text-align: center;
   margin: 0;
-  color: #000000;
+  color: var(--sub-title);
   text-align: center;
 }
 .p {

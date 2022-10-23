@@ -5,7 +5,7 @@ import icono8 from "../../../images/icono8.png"
 function FooterResponsive() {
   return (
     <div className="on-none tarjet">
-      <section class="on-none">
+      <section className="on-none">
         <button>
           Categorias
           <img src={icono8} alt="" />

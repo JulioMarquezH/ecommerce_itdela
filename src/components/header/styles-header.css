@@ -1,6 +1,6 @@
 .header {
   height: 56px;
-  background-color: #020000;
+  background-color: var(--color-Navbar);
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,0 +1,31 @@
+.box-cart {
+  margin: 0 174px 200px 174px;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.button-pink {
+  background-color: var(--background-button);
+  border-radius: 4px;
+  padding: 8px 25px 8px 23px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--name-button);
+}

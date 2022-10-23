@@ -8,7 +8,7 @@
   font-size: 48px;
   line-height: 56px;
   margin: 0;
-  color: #f7bec5;
+  color: var(--color-bar-text);
   width: 723.45px;
 }
 .bar-content button.button-pink {
@@ -16,7 +16,7 @@
   margin-top: 32px;
 }
 .button-pink {
-  background-color: #f7bec5;
+  background-color: var(--background-button);
   border-radius: 4px;
   padding: 8px 25px 8px 23px;
   display: flex;
@@ -26,7 +26,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #64000c;
+  color: var(--name-button);
 }
 @media screen and (min-width: 730px) and (max-width: 900px) {
   .bar-content p {

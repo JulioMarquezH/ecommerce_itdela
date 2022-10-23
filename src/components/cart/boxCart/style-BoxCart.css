@@ -1,0 +1,37 @@
+.shopping-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-cart {
+  width: 130px;
+  height: 120px;
+}
+.text-h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+.btn-add {
+  margin-right: 10px;
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+  color: #000000;
+  margin-bottom: 20px;
+}
+hr {
+  margin-top: 8px;
+  margin-bottom: 40px;
+  opacity: 0.4;
+}

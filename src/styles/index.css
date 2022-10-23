@@ -1,3 +1,15 @@
+:root {
+  --roboto-font: "Roboto";
+  --color-Navbar: #020000;
+  --body: #ffffff;
+  --sub-title: #000000;
+  --name-product: #ca557e;
+  --price-product: #a8a8a8;
+  --background-button: #f7bec5;
+  --name-button: #64000c;
+  --color-bar-text: #f7bec5;
+}
+
 button {
   background: none;
   color: inherit;
@@ -9,4 +21,10 @@ button {
 }
 body {
   margin: 0;
+}
+.content-blog {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 200px;
 }
