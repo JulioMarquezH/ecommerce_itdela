@@ -3,6 +3,7 @@ import img8 from "../../images/img8.png"
 import img9 from "../../images/img9.png"
 import img10 from "../../images/img10.png"
 import "./styles-category.css"
+import { nanoid } from "nanoid"
 
 import CategoryCard from "./categoryCard/CategoryCard"
 
@@ -29,7 +30,8 @@ function Category() {
         {categoryList.map((item, index) => {
           const isNotBorder = index % 2 == 1
           const props = { ...item, isNotBorder }
-          return <CategoryCard {...props} />
+          const key = nanoid()
+          return <CategoryCard key={key} {...props} />
         })}
       </div>
     </aside>

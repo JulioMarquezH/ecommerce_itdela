@@ -3,14 +3,14 @@ import "./style-Post.css"
 
 function Post({ image, title, date, description }) {
   return (
-    <div class="blog-post">
-      <div class="block-image-blog">
-        <img class="image-blog" src={image} alt="" />
+    <div className="blog-post">
+      <div className="block-image-blog">
+        <img className="image-blog" src={image} alt="" />
       </div>
       <div>
-        <p class="title-post">{title}</p>
-        <p class="date-post">{date}</p>
-        <p class="decription-post">{description}</p>
+        <p className="title-post">{title}</p>
+        <p className="date-post">{date}</p>
+        <p className="decription-post">{description}</p>
       </div>
     </div>
   )

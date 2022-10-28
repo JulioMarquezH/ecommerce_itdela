@@ -1,7 +1,4 @@
 import React from "react"
-import img2 from "../../../images/img2.png"
-import img3 from "../../../images/img3.png"
-import img4 from "../../../images/img4.png"
 import img15 from "../../../images/img15.png"
 import img16 from "../../../images/img16.png"
 import img17 from "../../../images/img17.png"
@@ -10,6 +7,9 @@ import img19 from "../../../images/img19.png"
 import img20 from "../../../images/img20.png"
 import "./style-listProducts.css"
 import PrdoctCard from "../prdoctCard/PrdoctCard"
+import { nanoid } from "nanoid"
+import { useContext } from "react"
+import AppContext from "../../../context/AppContext"
 
 const productList = [
   {
@@ -69,13 +69,16 @@ const productList = [
 ]
 
 function ListProducts() {
+  const value = useContext(AppContext)
+  console.log(value)
   return (
     <div className="list-products">
-      <div class="catalogue">
+      <div className="catalogue">
         {productList.map((item, index) => {
           const isNotBorder = index * 0 == 1
           const props = { ...item, isNotBorder }
-          return <PrdoctCard {...props} />
+          const key = nanoid()
+          return <PrdoctCard key={key} {...props} />
         })}
       </div>
     </div>

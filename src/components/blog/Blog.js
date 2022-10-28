@@ -4,6 +4,7 @@ import img12 from "../../images/img12.png"
 import img13 from "../../images/img13.png"
 import BlogCard from "./blogCard/BlogCard"
 import "./styles-blog.css"
+import { nanoid } from "nanoid"
 
 const contentBlog = [
   {
@@ -37,7 +38,8 @@ function Blog() {
         {contentBlog.map((item, index) => {
           const isNotBorder = index % 2 == 1
           const props = { ...item, isNotBorder }
-          return <BlogCard {...props} />
+          const key = nanoid()
+          return <BlogCard key={key} {...props} />
         })}
       </div>
     </aside>
@@ -47,7 +49,7 @@ function Blog() {
 export default Blog
 
 /*
- <section class="blog">
+ <section className="blog">
           <img src="./img/img11.png" alt="" />
           <blockquote>
             <h6>Línea cosmética</h6>
@@ -61,7 +63,7 @@ export default Blog
           <hr />
           <p>29 de Julio, 2022</p>
         </section>
-        <section class="blog blog-margin">
+        <section className="blog blog-margin">
           <img src="./img/img12.png" alt="" />
           <blockquote>
             <h6>Línea cosmética</h6>
@@ -75,7 +77,7 @@ export default Blog
           <hr />
           <p>29 de Julio, 2022</p>
         </section>
-        <section class="blog">
+        <section className="blog">
           <img src="./img/img13.png" alt="" />
           <blockquote>
             <h6>Línea cosmética</h6>

@@ -11,12 +11,12 @@ import "./styles-blackBar.css"
 function BlackBar({ children }) {
   return (
     <div className="bar-black">
-      <img src={circulo} alt="" class="ellipse" />
-      <img src={circulo1} alt="" class="ellipse1" />
-      <img src={circulo2} alt="" class="ellipse2" />
-      <img src={circulo3} alt="" class="ellipse3" />
-      <img src={circulo4} alt="" class="ellipse4" />
-      <img src={circulo5} alt="" class="ellipse5" />
+      <img src={circulo} alt="" className="ellipse" />
+      <img src={circulo1} alt="" className="ellipse1" />
+      <img src={circulo2} alt="" className="ellipse2" />
+      <img src={circulo3} alt="" className="ellipse3" />
+      <img src={circulo4} alt="" className="ellipse4" />
+      <img src={circulo5} alt="" className="ellipse5" />
       {children}
     </div>
   )

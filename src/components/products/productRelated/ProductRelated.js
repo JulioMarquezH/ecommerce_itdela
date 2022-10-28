@@ -5,6 +5,7 @@ import img4 from "../../../images/img4.png"
 import "../styles-products.css"
 import "./styles-productsRelated.css"
 import PrdoctCard from "../prdoctCard/PrdoctCard"
+import { nanoid } from "nanoid"
 
 const productList = [
   {
@@ -29,12 +30,13 @@ const productList = [
 
 function ProductRelated() {
   return (
-    <div class="related">
-      <div class="box-related">
+    <div className="related">
+      <div className="box-related">
         {productList.map((item, index) => {
           const isNotBorder = index * 0 == 1
+          const key = nanoid()
           const props = { ...item, isNotBorder }
-          return <PrdoctCard {...props} />
+          return <PrdoctCard key={key} {...props} />
         })}
       </div>
     </div>

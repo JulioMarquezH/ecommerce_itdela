@@ -24,7 +24,7 @@ h1 {
   line-height: 13px;
   color: #a8a8a8;
 }
-.header a {
+.header .a {
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -33,4 +33,7 @@ h1 {
   line-height: 23px;
   color: #dedcdc;
   margin-right: 45px;
+}
+.Link {
+  display: flex;
 }

@@ -35,20 +35,20 @@ export default FiltersCategory
 /*
 
 
-<div class="check-list">
-<button class="check"></button>
+<div className="check-list">
+<button className="check"></button>
 <p>Línea de mesoterapia</p>
 </div>
-      <div class="check-list">
-        <button class="check"></button>
+      <div className="check-list">
+        <button className="check"></button>
         <p>Línea cosmética</p>
       </div>
-      <div class="check-list">
-        <button class="check"></button>
+      <div className="check-list">
+        <button className="check"></button>
         <p>Precursores Antioxidantes</p>
       </div>
-      <div class="check-list">
-        <button class="check"></button>
+      <div className="check-list">
+        <button className="check"></button>
         <p>Nutrición y medicina Funcional</p>
 </div>
 */

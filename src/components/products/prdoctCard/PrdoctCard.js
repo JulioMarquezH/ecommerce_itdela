@@ -9,15 +9,17 @@ function PrdoctCard({ name, image, price, labelBtn, isNotBorder }) {
       <img
         src={image}
         alt=""
-        class={clsx("img-square", isNotBorder && "square-margin")}
+        className={clsx("img-square", isNotBorder && "square-margin")}
       />
       <blockquote
-        class={clsx("stellar-text", isNotBorder && "stellar-text-margin")}
+        className={clsx("stellar-text", isNotBorder && "stellar-text-margin")}
       >
         <h4>{name}</h4>
         <p>{price}</p>
       </blockquote>
-      <button class={clsx("button-pink", isNotBorder && "button-pink-margin")}>
+      <button
+        className={clsx("button-pink", isNotBorder && "button-pink-margin")}
+      >
         <img src={add} alt="" />
         {labelBtn}
       </button>

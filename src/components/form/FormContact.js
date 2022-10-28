@@ -3,25 +3,29 @@ import "./style-Form.css"
 
 function FormContact() {
   return (
-    <form class="data">
-      <p class="data-title">Datos de contacto</p>
+    <form className="data">
+      <p className="data-title">Datos de contacto</p>
       <div>
-        <input type="text" class="input-data" placeholder="Name" />
+        <input type="text" className="input-data" placeholder="Name" />
       </div>
       <div>
-        <input type="text" class="input-data" placeholder="Last name" />
+        <input type="text" className="input-data" placeholder="Last name" />
       </div>
 
       <div>
-        <input type="text" class="input-data" placeholder="Phone" />
+        <input type="text" className="input-data" placeholder="Phone" />
       </div>
       <div>
-        <input type="text" class="input-data" placeholder="Mail@gmail.com" />
+        <input
+          type="text"
+          className="input-data"
+          placeholder="Mail@gmail.com"
+        />
       </div>
       <div>
-        <textarea class="taxtArea-data" placeholder="Direction"></textarea>
+        <textarea className="taxtArea-data" placeholder="Direction"></textarea>
       </div>
-      <button class="button-pink">Enviar pedido</button>
+      <button className="button-pink">Enviar pedido</button>
     </form>
   )
 }

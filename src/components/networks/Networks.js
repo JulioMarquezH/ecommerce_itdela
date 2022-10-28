@@ -4,6 +4,7 @@ import img6 from "../../images/img6.png"
 import img7 from "../../images/img7.png"
 import Ellipse5 from "../../images/Ellipse5.png"
 import "./style-networks.css"
+import { nanoid } from "nanoid"
 import Post from "./post/Post"
 
 const images = [
@@ -27,7 +28,8 @@ function Networks() {
           const isNone = index !== 0
           const isNotBorder = index % 2 == 1
           const props = { ...item, isNone, isNotBorder }
-          return <Post {...props} />
+          const key = nanoid()
+          return <Post key={key} {...props} />
         })}
       </div>
       <span>
